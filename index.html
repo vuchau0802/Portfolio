@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vu Trong Chau - Portfolio</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+         :root {
+            --bg-color: #0d3b2e;
+            --text-color: white;
+            --card-bg: #1c4d3b;
+            --highlight: #bad2c5;
+        }
+        
+        body.light {
+            --bg-color: #f9f9f9;
+            --text-color: #222;
+            --card-bg: #fff;
+            --highlight: #0d3b2e;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: var(--bg-color) url("222.jpg") no-repeat center center fixed;
+            background-size: cover;
+            color: var(--text-color);
+            transition: all 0.3s ease;
+            font-size: 20px;
+            /* base size larger */
+            line-height: 1.9em;
+        }
+        
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 200;
+            background: rgba(5, 39, 29, 0.95);
+            padding: 15px 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: bold;
+        }
+        /* === Two-column layout with sticky left sidebar === */
+        
+        .wrap {
+            padding: 40px 24px;
+            background: rgba(0, 0, 0, .5);
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: 360px minmax(0, 1fr);
+            gap: 28px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .profile {
+            /* sticky sidebar */
+            position: sticky;
+            top: 90px;
+            /* sits below the header */
+            align-self: start;
+            text-align: center;
+            padding: 18px;
+            background: rgba(28, 77, 59, .75);
+            border-radius: 12px;
+            backdrop-filter: blur(2px);
+        }
+        
+        .profile img {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            border: 5px solid var(--text-color);
+            object-fit: cover;
+            margin-bottom: 18px;
+        }
+        
+        .profile h2 {
+            margin: 0 0 8px;
+            font-size: 26px;
+        }
+        
+        .profile p {
+            margin: 0;
+        }
+        
+        .contact-info {
+            margin: 18px 0;
+        }
+        
+        .contact-info p {
+            margin: 8px 0;
+            font-size: 17px;
+        }
+        
+        .contact-info i {
+            margin-right: 10px;
+            color: var(--highlight);
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            margin: 12px 6px 0 0;
+            background: var(--highlight);
+            color: #05271d;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+        
+        .content {
+            padding: 8px 10px;
+        }
+        
+        h2 {
+            color: var(--highlight);
+            margin: 30px 0 10px;
+            font-size: 29px;
+        }
+        
+        ul {
+            list-style: none;
+            padding: 0;
+            font-size: 20px;
+        }
+        
+        .project-list {
+            margin-top: 10px;
+            padding-left: 18px;
+        }
+        
+        .project-list li {
+            margin: 0 0 14px;
+        }
+        
+        .toggle-btn {
+            padding: 6px 12px;
+            margin-left: 15px;
+            background: var(--highlight);
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            color: #05271d;
+        }
+        
+        .container {
+            padding: 40px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 50px;
+        }
+        
+        .profile {
+            flex: 1 1 280px;
+            max-width: 340px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .profile img {
+            width: 240px;
+            height: 240px;
+            border-radius: 30%;
+            border: 4px solid var(--text-color);
+            margin-bottom: 0px;
+        }
+        
+        .profile h2 {
+            margin-bottom: 8px;
+        }
+        
+        .contact-info {
+            margin: 15px 0;
+            text-align: center;
+        }
+        
+        .contact-info p {
+            margin: 6px 0;
+            font-size: 17px;
+        }
+        
+        .contact-info i {
+            margin-right: 8px;
+            color: var(--highlight);
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 5px 0 0;
+            background: var(--highlight);
+            color: #05271d;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        
+        .content {
+            flex: 2 1 500px;
+            padding: 0 20px;
+        }
+        
+        h2 {
+            color: var(--highlight);
+            margin-top: 25px;
+        }
+        
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .project-list {
+            margin-top: 15px;
+            padding-left: 15px;
+        }
+        
+        .project-list li {
+            margin-bottom: 12px;
+            line-height: 1.5em;
+        }
+        
+        footer {
+            background: rgba(5, 39, 29, 0.9);
+            text-align: center;
+            padding: 40px;
+            margin-top: 40px;
+        }
+        
+        footer a {
+            color: var(--highlight);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        @media (max-width: 820px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+            .profile {
+                position: static;
+                top: auto;
+            }
+            header h1 {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Vu Trong Chau</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <button class="toggle-btn" onclick="toggleMode()">☀ Dark/Light</button>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="profile">
+            <img src="unnamed.jpg" alt="Vu Trong Chau">
+            <h2>Machine Learning Engineer</h2>
+            <p>Data Analyst | AI Enthusiast | IoT | Embedded Systems</p>
+
+            <!-- Contact Info under tagline -->
+            <div class="contact-info">
+                <p><i class="fas fa-phone"></i> +1 (904) 820-9298</p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:chautrongvu@gmail.com" style="color: var(--highlight);">chautrongvu@gmail.com</a></p>
+                <p><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/vutrongchau" target="_blank" style="color: var(--highlight);">linkedin.com/in/vutrongchau</a></p>
+                <p><i class="fas fa-instagram"></i> <a href="https://www.instagram.com/trongvu_0208/" target="_blank" style="color: var(--highlight);">instagram.com/trongchau_0208</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> Manor, TX, USA</p>
+            </div>
+
+            <a href="VU CHAU - RESUME.pdf" class="btn" download><i class="fas fa-download"></i> Download CV</a>
+            <a href="Threat Detection Report.pdf" class="btn" download><i class="fas fa-download"></i> Download Thesis</a>
+        </div>
+
+        <div class="content">
+            <section id="about">
+                <h2><i class="fas fa-user"></i> About Me</h2>
+                <p>
+                    I’m <strong>Vu Trong Chau</strong>, a Machine Learning Engineer with expertise in AI, Natural Language Processing, and IoT systems. I enjoy building end-to-end solutions that combine data science, machine learning models, and intuitive
+                    interfaces. My recent work includes developing a cyberbullying detection system that identifies harmful content in real time, a global population prediction tool with interactive visualizations, and innovative IoT projects like a solar-powered
+                    smart trash system. These experiences reflect my ability to bridge research, engineering, and real-world applications.
+                </p>
+                <p>
+                    With a Master’s in Computer Science (AI concentration) and a Bachelor’s in Electrical and Electronic Engineering, I bring both breadth and depth across software and hardware. I thrive in team environments where I can apply machine learning to real-world
+                    challenges, turning advanced technology into solutions that are scalable, accessible, and impactful.
+                </p>
+            </section>
+
+            <section id="skills">
+                <h2>Technical Skills</h2>
+                <ul>
+                    <li><i class="fas fa-tools"></i> <strong>Programming Languages:</strong> Python, C++, JavaScript, SQL, MATLAB</li>
+                    <li><i class="fas fa-tools"></i> <strong>Machine Learning & AI:</strong> Deep Learning, Neural Networks, NLP, LLMs, Decision Trees, Random Forest, XGBoost, SVM, Gradient Boosting
+                    </li>
+                    <li><i class="fas fa-tools"></i> <strong>Frameworks & Libraries:</strong> TensorFlow, PyTorch, Scikit-learn, Pandas, NumPy, Flask, D3.js</li>
+                    <li><i class="fas fa-tools"></i> <strong>MLOps & Cloud:</strong> AWS SageMaker, GCP Vertex AI, Azure ML, Docker, Kubernetes, CI/CD Pipelines</li>
+                    <li><i class="fas fa-tools"></i> <strong>Data & Visualization:</strong> Jupyter Notebook, SQL, Tableau, Power BI, Hadoop</li>
+                    <li><i class="fas fa-tools"></i> <strong>IoT & Hardware:</strong> Arduino, PCB Design, SolidWorks, AutoCAD</li>
+                </ul>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li><i class="fas fa-graduation-cap"></i> <strong>Master of Science in Computer Science (AI Concentration)</strong> – Troy University</li>
+                    <li><i class="fas fa-graduation-cap"></i> <strong>BEng in Electronic & Electrical Engineering</strong> – University of Sunderland</li>
+                </ul>
+            </section>
+
+            <section id="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li><i class="fas fa-project-diagram"></i> <strong>Cyberbullying Detection</strong> </li>
+                    <p> Built a machine learning system that detects harmful online content with 92% accuracy using Logistic Regression, XGBoost, Naive Bayes, Random Forest, and Decision Tree. Applied advanced NLP techniques (tokenization, stemming, TF-IDF)
+                        on 72,000+ social media texts and engineered semantic, syntactic, and sentiment features. Deployed through a Flask web app with real-time input, highlighted offensive words, and generated a bullying severity score for interpretability.</p>
+                    <p><strong>Technologies Used</strong>: Python, Scikit-learn, Pandas, Flask, NLP (TF-IDF, tokenization, stemming).</p>
+                    <li><i class="fas fa-project-diagram"></i> <strong>Global Population Prediction</strong> </li>
+                    <p>Developed an application to forecast global population trends from 1960–2023 with 95% prediction accuracy. Designed interactive data visualizations including choropleth maps, line charts, and bar charts to allow easy country-level
+                        exploration. Built with Python, D3.js, JavaScript, and Tailwind CSS, the system provides a user-friendly interface for understanding demographic changes worldwide.</p>
+                    <p><strong>Technologies Used</strong>: Python, D3.js, JavaScript, Taiwind CSS, Pandas, Git</p>
+                    <li><i class="fas fa-project-diagram"></i> <strong>Smart Trash System</strong> </li>
+                    <p>Created a solar-powered smart trash bin with automatic lid control and real-time waste monitoring using ultrasonic sensors. Designed 3D mechanical models in SolidWorks, manufacturable layouts in AutoCAD, and control circuitry via PCB
+                        tools and Multisim. Integrated renewable energy for autonomous outdoor use, demonstrating innovation in sustainable IoT design.</p>
+                    <p><strong>Technologies Used</strong>: Arduino, SolidWorks, AutoCAD, PCB Design, Multisim, Solar Power, Integration</p>
+                    <li><i class="fas fa-project-diagram"></i> <strong>Anti-Burglar Smart Home</strong></li>
+                    <p>Developed a home security system using sensors and Arduino, connected to smartphones for remote monitoring and control. Designed wiring diagrams, house models, and PCB layouts to ensure efficient installation and operation. Enhanced
+                        system functionality through iterative testing, making it a practical and affordable IoT security solution.</p>
+                    <p><strong>Technologies Used</strong>: Arduino, PCB Design, AutoCAD, Multisim, Embedded Systems</p>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <footer id="contact">
+        <p>© 2025 Vu Trong Chau</p>
+    </footer>
+
+    <script>
+        function toggleMode() {
+            document.body.classList.toggle("light");
+        }
+    </script>
+</body>
+
+</html>
