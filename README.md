@@ -8,13 +8,13 @@ Visit My Portfolio: [https://yourusername.github.io/)](https://vuchau0802.github
 
 ---
 
-## 📖 About Me
+## About Me
 I’m **Vu Trong Chau**, a Machine Learning Engineer passionate about turning data into impactful AI applications.  
 With a **Master’s in Computer Science (AI concentration)** and a **Bachelor’s in Electrical & Electronic Engineering**, I bridge **AI, software, and IoT** to deliver solutions that are both technically robust and user-focused.  
 
 ---
 
-## 🚀 Projects
+## Projects
 
 ### 🧠 Cyberbullying Detection System
 - NLP-based ML system that identifies harmful online content in real time.  
