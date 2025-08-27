@@ -21,12 +21,12 @@ With a **Master’s in Computer Science (AI concentration)** and a **Bachelor’
 - Processed **72,000+ posts**, achieved **92% accuracy**, deployed via Flask.  
 - **Technologies:** Python, Scikit-learn, Pandas, Flask, NLP  
 
-### Global Population Forecasting Dashboard
+### Global Population Prediction
 - Forecasted demographic trends from 1960–2023 with **95% accuracy**.  
 - Interactive dashboards with maps and charts for country-level exploration.  
 - **Technologies:** Python, D3.js, JavaScript, Tailwind CSS, Pandas  
 
-### Sleep Quality Prediction (Health AI)
+### Sleep Quality Prediction
 - Modeled lifestyle & biometric data (**40,000+ records**) with ML & DL models.  
 - Achieved **96% accuracy (F1 = 0.96)**.  
 - Delivered via a Flask dashboard with personalized recommendations.  
@@ -54,16 +54,7 @@ Language: English and Vietnamese
 
 ---
 
-## 📫 Contact
-- 📧 Email: [chautrongvu@gmail.com](mailto:chautrongvu@gmail.com)  
-- 🔗 LinkedIn: [linkedin.com/in/vutrongchau](https://linkedin.com/in/vutrongchau)  
-- 🌐 Portfolio: [[vuchau0802.github.io](https://vuchau0802.github.io/Portfolio/)
-
----
-
-## 📌 How to Run Locally
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/portfolio.git
-
-# Open index.html in your browser
+## Contact
+- Email: [chautrongvu@gmail.com](mailto:chautrongvu@gmail.com)  
+- LinkedIn: [linkedin.com/in/vutrongchau](https://linkedin.com/in/vutrongchau)  
+- Portfolio: [vuchau0802.github.io](https://vuchau0802.github.io/Portfolio/)
