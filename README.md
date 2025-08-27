@@ -1,10 +1,8 @@
 # Portfolio
-# Vu Trong Chau - Portfolio Website
+# Vu Trong Chau - Portfolio
 
 Welcome to my personal portfolio!  
 This site showcases my work as a Machine Learning Engineer, including projects in NLP, predictive modeling, data visualization, and IoT systems.  
-
-Visit My Portfolio: [https://yourusername.github.io/)](https://vuchau0802.github.io/Portfolio/)  
 
 ---
 
