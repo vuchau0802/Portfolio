@@ -139,6 +139,21 @@
             padding: 8px 10px;
         }
         
+        .project-card {
+            background: rgba(0, 0, 0, 0.25);
+            /* subtle dark background */
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        .project-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+        }
+        
         h2 {
             color: var(--highlight);
             margin: 30px 0 10px;
@@ -262,6 +277,42 @@
             font-weight: bold;
         }
         
+        #about {
+            background: rgba(255, 255, 255, 0.10);
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+        }
+        
+        #skills {
+            background: rgba(186, 210, 197, 0.10);
+            /* soft highlight */
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+        }
+        
+        #education {
+            background: rgba(255, 255, 255, 0.10);
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+        }
+        
+        #projects {
+            background: rgba(186, 210, 197, 0.10);
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+        }
+        
+        #languages {
+            background: rgba(255, 255, 255, 0.10);
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+        }
+        
         @media (max-width: 820px) {
             .grid {
                 grid-template-columns: 1fr;
@@ -312,62 +363,88 @@
         <div class="content">
             <section id="about">
                 <h2><i class="fas fa-user"></i> About Me</h2>
-                <p>
-                    I’m <strong>Vu Trong Chau</strong>, a Machine Learning Engineer with expertise in AI, Natural Language Processing, and IoT systems. I enjoy building end-to-end solutions that combine data science, machine learning models, and intuitive
-                    interfaces. My recent work includes developing a cyberbullying detection system that identifies harmful content in real time, a global population prediction tool with interactive visualizations, and designing AI-powered health tools.
-                    These experiences reflect my ability to bridge research, engineering, and real-world applications.
-                </p>
-                <p>
-                    With a Master’s in Computer Science (AI concentration) and a Bachelor’s in Electrical and Electronic Engineering, I bring both breadth and depth across software, data science, and embedded systems. I thrive in team environments where I can apply machine
-                    learning to real-world challenges, turning advanced technology into solutions that are scalable, accessible, and impactful.
-                </p>
+                <div class="project-card">
+                    <p>
+                        I’m <strong>Vu Trong Chau</strong>, a Machine Learning Engineer with expertise in AI, Natural Language Processing, and IoT systems. I enjoy building end-to-end solutions that combine data science, machine learning models, and intuitive
+                        interfaces. My recent work includes developing a cyberbullying detection system that identifies harmful content in real time, a global population prediction tool with interactive visualizations, and designing AI-powered health
+                        tools. These experiences reflect my ability to bridge research, engineering, and real-world applications.
+                    </p>
+                    <p>
+                        With a Master’s in Computer Science (AI concentration) and a Bachelor’s in Electrical and Electronic Engineering, I bring both breadth and depth across software, data science, and embedded systems. I thrive in team environments where I can apply machine
+                        learning to real-world challenges, turning advanced technology into solutions that are scalable, accessible, and impactful.
+                    </p>
+                </div>
             </section>
 
             <section id="skills">
                 <h2>Technical Skills</h2>
                 <ul>
-                    <li><i class="fas fa-tools"></i> <strong>Programming Languages:</strong> Python, C++, JavaScript, SQL, MATLAB</li>
-                    <li><i class="fas fa-tools"></i> <strong>Machine Learning & AI:</strong> Deep Learning, Neural Networks, NLP, LLMs, Decision Trees, Random Forest, XGBoost, SVM, Gradient Boosting
-                    </li>
-                    <li><i class="fas fa-tools"></i> <strong>Frameworks & Libraries:</strong> TensorFlow, PyTorch, Scikit-learn, Pandas, NumPy, Flask, D3.js</li>
-                    <li><i class="fas fa-tools"></i> <strong>MLOps & Cloud:</strong> AWS SageMaker, GCP Vertex AI, Azure ML, Docker, Kubernetes, CI/CD Pipelines</li>
-                    <li><i class="fas fa-tools"></i> <strong>Data & Visualization:</strong> Jupyter Notebook, SQL, Tableau, Power BI, Hadoop</li>
-                    <li><i class="fas fa-tools"></i> <strong>IoT & Hardware:</strong> Arduino, PCB Design, SolidWorks, AutoCAD</li>
+                    <div class="project-card">
+                        <li><i class="fas fa-laptop-code"></i> <strong>Programming Languages:</strong> Python, C++, JavaScript, SQL, MATLAB</li>
+                        <li><i class="fas fa-robot"></i> <strong>Machine Learning & AI:</strong> Deep Learning, Neural Networks, NLP, LLMs, Decision Trees, Random Forest, XGBoost, SVM, Gradient Boosting
+                        </li>
+                        <li><i class="fas fa-cubes"></i> <strong>Frameworks & Libraries:</strong> TensorFlow, PyTorch, Scikit-learn, Pandas, NumPy, Flask, D3.js</li>
+                        <li><i class="fas fa-cogs"></i> <strong>MLOps & Cloud:</strong> AWS SageMaker, GCP Vertex AI, Azure ML, Docker, Kubernetes, CI/CD Pipelines</li>
+                        <li><i class="fas fa-chart-line"></i> <strong>Data & Visualization:</strong> Jupyter Notebook, SQL, Tableau, Power BI, Hadoop</li>
+                        <li><i class="fas fa-tools"></i> <strong>IoT & Hardware:</strong> Arduino, PCB Design, SolidWorks, AutoCAD</li>
+                    </div>
                 </ul>
             </section>
 
             <section id="education">
                 <h2>Education</h2>
                 <ul>
-                    <li><i class="fas fa-graduation-cap"></i> <strong>Master of Science in Computer Science (AI Concentration)</strong> – Troy University</li>
-                    <li><i class="fas fa-graduation-cap"></i> <strong>BEng in Electronic & Electrical Engineering</strong> – University of Sunderland</li>
+                    <div class="project-card">
+                        <li><i class="fas fa-graduation-cap"></i> <strong>Master of Science in Computer Science (AI Concentration)</strong> – Troy University</li>
+                        <li><i class="fas fa-graduation-cap"></i> <strong>BEng in Electronic & Electrical Engineering</strong> – University of Sunderland</li>
+                    </div>
                 </ul>
             </section>
 
             <section id="projects">
                 <h2>Projects</h2>
                 <ul>
-                    <li><i class="fas fa-project-diagram"></i> <strong>Threat Detection using Machine Learning</strong> </li>
-                    <p> Developed an NLP-powered machine learning application to identify harmful online content in real time. Using a dataset of 72,000+ social media posts, I applied advanced text preprocessing (tokenization, stemming, TF-IDF) and engineered
-                        semantic, syntactic, and sentiment features. Multiple models were tested, with Logistic Regression, Random Forest, and XGBoost achieving the highest performance at 92% accuracy. The system was deployed as a Flask web app, providing
-                        live classification, offensive word highlighting, and a bullying severity score for interpretability.</p>
-                    <p><strong>Technologies Used</strong>: Python, Scikit-learn, Pandas, Flask, NLP (TF-IDF, tokenization, stemming).</p>
-                    <li><i class="fas fa-project-diagram"></i> <strong>Global Population Prediction</strong> </li>
-                    <p>Created a forecasting tool to analyze and predict demographic trends from 1960–2023 with 95% prediction accuracy. The dashboard featured interactive maps, line charts, and bar charts, enabling intuitive exploration at both global and
-                        country levels. Built using Python, D3.js, Tailwind CSS, and Pandas, the system combines statistical forecasting with rich visualizations, making demographic data accessible to policymakers, researchers, and the public.</p>
-                    <p><strong>Technologies Used</strong>: Python, D3.js, JavaScript, Taiwind CSS, Pandas, Git</p>
-                    <li><i class="fas fa-project-diagram"></i> <strong>Sleep Quality Prediction</strong> </li>
-                    <p>Designed an AI system to predict sleep quality using 40,000+ records of lifestyle and biometric data, including sleep duration, stress, heart rate, and daily activity. Experimented with Logistic Regression, Random Forest, and deep
-                        learning architectures (CNNs and RNNs), achieving 96% accuracy. Delivered as a Flask-based dashboard, the tool allows users to input lifestyle data and receive predictions along with personalized health recommendations, demonstrating
-                        the power of machine learning for wellness applications.</p>
-                    <p><strong>Technologies Used</strong>: Python, Scikit-learn, TensorFlow/PyTorch, Pandas, NumPy, Flask, CNN, RNN</p>
+                    <div class="project-card">
+                        <li><i class="fas fa-shield-alt"></i> <i class="fas fa-brain"></i> <strong>Threat Detection using Machine Learning</strong> </li>
+                        <p> Developed an NLP-powered machine learning application to identify harmful online content in real time. Using a dataset of 72,000+ social media posts, I applied advanced text preprocessing (tokenization, stemming, TF-IDF) and engineered
+                            semantic, syntactic, and sentiment features. Multiple models were tested, with Logistic Regression, Random Forest, and XGBoost achieving the highest performance at 92% accuracy. The system was deployed as a Flask web app, providing
+                            live classification, offensive word highlighting, and a bullying severity score for interpretability.</p>
+                        <p><strong>Technologies Used</strong>: Python, Scikit-learn, Pandas, Flask, NLP (TF-IDF, tokenization, stemming).</p>
+                    </div>
+                    <div class="project-card">
+                        <li><i class="fas fa-globe"></i> <i class="fas fa-chart-line"></i> <strong>Global Population Prediction</strong> </li>
+                        <p>Created a forecasting tool to analyze and predict demographic trends from 1960–2023 with 95% prediction accuracy. The dashboard featured interactive maps, line charts, and bar charts, enabling intuitive exploration at both global
+                            and country levels. Built using Python, D3.js, Tailwind CSS, and Pandas, the system combines statistical forecasting with rich visualizations, making demographic data accessible to policymakers, researchers, and the public.</p>
+                        <p><strong>Technologies Used</strong>: Python, D3.js, JavaScript, Taiwind CSS, Pandas, Git</p>
+                    </div>
+                    <div class="project-card">
+                        <li><i class="fas fa-moon"></i> <i class="fas fa-chart-line"></i> <strong>Sleep Quality Prediction</strong> </li>
+                        <p>Designed an AI system to predict sleep quality using 40,000+ records of lifestyle and biometric data, including sleep duration, stress, heart rate, and daily activity. Experimented with Logistic Regression, Random Forest, and deep
+                            learning architectures (CNNs and RNNs), achieving 96% accuracy. Delivered as a Flask-based dashboard, the tool allows users to input lifestyle data and receive predictions along with personalized health recommendations, demonstrating
+                            the power of machine learning for wellness applications.</p>
+                        <p><strong>Technologies Used</strong>: Python, Scikit-learn, TensorFlow/PyTorch, Pandas, NumPy, Flask, CNN, RNN</p>
+                    </div>
+                    <div class="project-card">
+                        <li><i class="fas fa-trash"></i> <i class="fas fa-robot"></i> <strong>Smart Trash System</strong> </li>
+                        <p>Created a solar-powered smart trash bin with automatic lid control and real-time waste monitoring using ultrasonic sensors. Designed 3D mechanical models in SolidWorks, manufacturable layouts in AutoCAD, and control circuitry via
+                            PCB tools and Multisim. Integrated renewable energy for autonomous outdoor use, demonstrating innovation in sustainable IoT design.</p>
+                        <p><strong>Technologies Used</strong>: Arduino, SolidWorks, AutoCAD, PCB Design, Multisim, Solar Power, Integration</p>
+                    </div>
+                    <div class="project-card">
+                        <li><i class="fas fa-home"></i> <i class="fas fa-mobile-alt"></i> <strong>Anti-Burglar System House Connected to Smartphone</strong> </li>
+                        <p>Developed a home security system using sensors and Arduino, connected to smartphones for remote monitoring and control. Designed wiring diagrams, house models, and PCB layouts to ensure efficient installation and operation. Enhanced
+                            system functionality through iterative testing, making it a practical and affordable IoT security solution.</p>
+                        <p><strong>Technologies Used</strong>: Arduino, PCB Design, AutoCAD, Multisim, Embedded Systems</p>
+                    </div>
                 </ul>
             </section>
 
-            <section id="Languages">
+            <section id="languages">
                 <h2>Languages</h2>
                 <ul>
-                    <li><i class="fas fa-language"></i> <strong>Language:</strong> English and Vietnamese</li>
+                    <div class="project-card">
+                        <li><i class="fas fa-language"></i> <strong>Language:</strong> English and Vietnamese</li>
+                    </div>
                 </ul>
             </section>
         </div>
