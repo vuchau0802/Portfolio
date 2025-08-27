@@ -57,7 +57,7 @@ Language: English and Vietnamese
 ## 📫 Contact
 - 📧 Email: [chautrongvu@gmail.com](mailto:chautrongvu@gmail.com)  
 - 🔗 LinkedIn: [linkedin.com/in/vutrongchau](https://linkedin.com/in/vutrongchau)  
-- 🌐 Portfolio: [[yourusername.github.io](https://vuchau0802.github.io/Portfolio/)](https://yourusername.github.io)  
+- 🌐 Portfolio: [[vuchau0802.github.io](https://vuchau0802.github.io/Portfolio/)
 
 ---
 
