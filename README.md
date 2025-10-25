@@ -14,6 +14,12 @@ With a **Master’s in Computer Science (AI concentration)** and a **Bachelor’
 
 ## Projects
 
+### Healthcare Chatbot
+- Developed and deployed a Healthcare Q&A chatbot using LLMs and RAG.  
+- Built an end-to-end MLOps pipeline with automated preprocessing, model deployment, and CI/CD via Docker.
+- Integrated FastAPI, Streamlit, and FAISS for scalable inference and high-precision retrieval.  
+- **Technologies:** Python, FastAPI, Streamlit, Hugging Face Transformers, FAISS, Docker
+
 ### Threat Detection using Machine Learning
 - NLP-based ML system that identifies harmful online content in real time.  
 - Processed **72,000+ posts**, achieved **92% accuracy**, deployed via Flask.  
