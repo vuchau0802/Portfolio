@@ -7,54 +7,17 @@ This site showcases my work as a Machine Learning Engineer, including projects i
 ---
 
 ## About Me
-I’m **Vu Trong Chau**, a Machine Learning Engineer passionate about turning data into impactful AI applications.  
-With a **Master’s in Computer Science (AI concentration)** and a **Bachelor’s in Electrical & Electronic Engineering**, I bridge **AI, software, and IoT** to deliver solutions that are both technically robust and user-focused.  
+Hi, I’m **Vu** — an AI/ML Engineer focused on building systems that can think, retrieve, and make decisions at scale.
 
----
+I specialize in transforming complex data and modern language models into production-ready applications. My work spans large language models, retrieval-augmented generation (RAG), machine learning pipelines, and full-stack AI systems.
 
-## Projects
+I design and deploy LLM-powered applications, including RAG systems, multi-agent architectures, and fine-tuned models built for real-world performance, scalability, and reliability. I also build end-to-end machine learning pipelines, covering everything from raw data ingestion and feature engineering to model training, evaluation, and API deployment.
 
-### Healthcare Chatbot
-- Developed and deployed a Healthcare Q&A chatbot using LLMs and RAG.  
-- Built an end-to-end MLOps pipeline with automated preprocessing, model deployment, and CI/CD via Docker.
-- Integrated FastAPI, Streamlit, and FAISS for scalable inference and high-precision retrieval.  
-- **Technologies:** Python, FastAPI, Streamlit, Hugging Face Transformers, FAISS, Docker
+My work also includes engineering intelligent retrieval systems using vector databases and semantic search to enable context-aware reasoning over large-scale knowledge bases. On the application side, I develop full-stack AI systems by connecting robust AI backends (such as FastAPI and LangChain) with modern frontends using Nuxt and TypeScript.
 
-### Threat Detection using Machine Learning
-- NLP-based ML system that identifies harmful online content in real time.  
-- Processed **72,000+ posts**, achieved **92% accuracy**, deployed via Flask.  
-- **Technologies:** Python, Scikit-learn, Pandas, Flask, NLP  
+I hold an M.S. in Computer Science (Artificial Intelligence) from Troy University and a B.Eng. in Electronic & Electrical Engineering from the University of Sunderland. Before transitioning into AI, I worked as a Process Engineer at Techtronic Industries (TTI) in Vietnam, where I built a strong foundation in data-driven problem solving in manufacturing systems. That experience shaped my systems-thinking approach, which I continue to apply to AI engineering today.
 
-### Global Population Prediction
-- Forecasted demographic trends from 1960–2023 with **95% accuracy**.  
-- Interactive dashboards with maps and charts for country-level exploration.  
-- **Technologies:** Python, D3.js, JavaScript, Tailwind CSS, Pandas  
-
-### Sleep Quality Prediction
-- Modeled lifestyle & biometric data (**40,000+ records**) with ML & DL models.  
-- Achieved **96% accuracy (F1 = 0.96)**.  
-- Delivered via a Flask dashboard with personalized recommendations.  
-- **Technologies:** Python, Scikit-learn, TensorFlow/PyTorch, Pandas, Flask  
-
-### Smart Trash System (IoT)
-- Solar-powered smart trash bin with automatic lid control and real-time monitoring.  
-- **Technologies:** Arduino, SolidWorks, AutoCAD, PCB Design, Multisim  
-
-### Anti-Burglar Smart Home (IoT)
-- Low-cost IoT security system with sensors, Arduino, and smartphone integration.  
-- **Technologies:** Arduino, PCB Design, AutoCAD, Embedded Systems  
-
----
-
-## 🛠️ Techical Skills
-- **Programming Languages**: Python, C++, JavaScript, MATLAB, SQL
-- **Machine Learning & AI**: Deep Learning, Neural Networks, NLP, LLMs, Decision Trees, Random Forest, CNNs, RNNs, XGBoost,
-SVM, Gradient Boosting
-- **Frameworks & Libraries**: TensorFlow, PyTorch, Scikit-learn, Pandas, NumPy, Flask, D3.js
-- **MLOps & Cloud**: AWS SageMaker, GCP Vertex AI, Azure ML, Docker, Kubernetes, CI/CD Pipelines
-- **Data & Visualization**: Jupyter Notebook, SQL, Tableau, Power BI, Hadoop
-- **IoT & Hardware (Transferable)**: Arduino, PCB Design, SolidWorks, AutoCAD
-Language: English and Vietnamese
+Recent highlights include building a multi-agent RAG healthcare assistant processing 11,700+ medical documents with 90% context precision, engineering credit risk ML pipelines on 890K+ loan records at SitusAMC with 89% accuracy, developing a threat detection system achieving 92% accuracy on 72,000+ labeled texts, and forecasting population trends across 200+ countries with under 2% MAE.
 
 ---
 
