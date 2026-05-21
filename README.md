@@ -79,10 +79,13 @@ M.S. Computer Science (AI) from Troy University with hands-on experience across 
 ## Education
 
 **M.S. Computer Science — Artificial Intelligence** (GPA: 3.5/4.0)
+
 Troy University · Jul 2025
+
 Coursework: Machine Learning, Advanced AI, Analysis of Algorithms, Data Visualization, Business Analytics (MBA)
 
 **B.Eng. Electronic & Electrical Engineering** (UK 2:1 Honours)
+
 University of Sunderland · Jul 2021
 
 ---
