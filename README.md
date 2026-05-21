@@ -3,8 +3,11 @@
 > Building systems that think, retrieve, and decide at scale — from multi-agent RAG pipelines and fine-tuned transformers to production ML infrastructure on GCP and AWS.
 
 **Portfolio:** [vuchau0802.github.io/Portfolio](https://vuchau0802.github.io/Portfolio)
+
 **LinkedIn:** [linkedin.com/in/vutrongchau](https://linkedin.com/in/vutrongchau)
+
 **GitHub:** [github.com/vuchau0802](https://github.com/vuchau0802)
+
 **Email:** chautrongvu@gmail.com
 
 ---
@@ -35,7 +38,7 @@ M.S. Computer Science (AI) from Troy University with hands-on experience across 
 
 ---
 
-### [Real-Time Threat Detection — NLP Classification](https://github.com/vuchau0802/Threat-Detection-using-Machine-Learning)
+### [Threat Detection — NLP Classification](https://github.com/vuchau0802/Threat-Detection-using-Machine-Learning)
 `Python` `PyTorch` `Hugging Face Transformers` `FastAPI` `Docker` `AWS` `CI/CD`
 
 - Fine-tuned **Toxic-BERT** on **130K+ labeled texts** — **84.9% accuracy, F1-score 0.855** (+9.3 F1 pp over baseline)
@@ -53,7 +56,7 @@ M.S. Computer Science (AI) from Troy University with hands-on experience across 
 
 ---
 
-### [Global Population Forecasting — Interactive Dashboard](https://github.com/vuchau0802/Global-Population-Prediction)
+### [Global Population Prediction — Interactive Dashboard](https://github.com/vuchau0802/Global-Population-Prediction)
 `Python` `Scikit-learn` `Pandas` `D3.js` `ETL Pipelines` `Flask`
 
 - ETL pipeline integrating **12 World Bank indicators** across **195+ countries and 60+ years** (1960–2023)
