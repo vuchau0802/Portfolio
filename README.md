@@ -1,6 +1,6 @@
 # Vu Trong Chau — AI/ML Engineer Portfolio
 
-> Building systems that think, retrieve, and decide at scale — from multi-agent RAG pipelines and fine-tuned transformers to production ML infrastructure on GCP and AWS.
+> Building systems that think, retrieve, and decide at scale, from multi-agent RAG pipelines and fine-tuned transformers to production ML infrastructure on GCP and AWS.
 
 **Portfolio:** [vuchau0802.github.io/Portfolio](https://vuchau0802.github.io/Portfolio)
 
@@ -14,7 +14,7 @@
 
 ## About
 
-M.S. Computer Science (AI) from Troy University with hands-on experience across the full ML lifecycle — data engineering, model training, inference optimization, and MLOps deployment. Currently interning as an AI Systems & LLM Engineering Intern at TechX, building multi-LLM orchestration pipelines and GPU-accelerated inference services on GCP Vertex AI.
+M.S. Computer Science (AI) from Troy University with hands-on experience across the full ML lifecycle, data engineering, model training, inference optimization, and MLOps deployment. Currently interning as an AI Systems & LLM Engineering Intern at TechX, building multi-LLM orchestration pipelines and GPU-accelerated inference services on GCP Vertex AI.
 
 ---
 
@@ -23,7 +23,7 @@ M.S. Computer Science (AI) from Troy University with hands-on experience across 
 ### [Healthcare Chatbot — Agentic RAG Platform](https://github.com/vuchau0802/Healthcare-Chatbot)
 `Python` `LangGraph` `LangChain` `FAISS` `Groq` `AWS` `Docker` `RAGAS`
 
-- 5-agent LangGraph RAG pipeline over **500K+ medical records** — **90.0% accuracy, 0.898 macro F1** (Linear SVM)
+- 5-agent LangGraph RAG pipeline over **500K+ medical records** with **90.0% accuracy, 0.898 macro F1** (Linear SVM)
 - AWS S3 + FAISS vector storage with ETL pipelines; RAGAS-guided chunking cut unsafe response rate to **<0.3%**
 - Dockerized microservices with GitHub Actions CI/CD and Prometheus monitoring; deploys end-to-end in **<4 minutes**
 
@@ -34,14 +34,14 @@ M.S. Computer Science (AI) from Troy University with hands-on experience across 
 
 - Full ML lifecycle pipelines over **2.26M financial records** (110K+ loans, 7 states)
 - **AUC-ROC 0.79**, R²=0.91, 89.7% accuracy; SMOTE oversampling lifted minority-class F1 by **+12 pp**
-- Automated ETL integrating FRED, BLS, and BEA macroeconomic APIs — zero-null feature store
+- Automated ETL integrating FRED, BLS, and BEA macroeconomic APIs with zero-null feature store
 
 ---
 
 ### [Threat Detection — NLP Classification](https://github.com/vuchau0802/Threat-Detection-using-Machine-Learning)
 `Python` `PyTorch` `Hugging Face Transformers` `FastAPI` `Docker` `AWS` `CI/CD`
 
-- Fine-tuned **Toxic-BERT** on **130K+ labeled texts** — **84.9% accuracy, F1-score 0.855** (+9.3 F1 pp over baseline)
+- Fine-tuned **Toxic-BERT** on **130K+ labeled texts** with **84.9% accuracy, F1-score 0.855** (+9.3 F1 pp over baseline)
 - FastAPI inference service with async handling and caching at **<80 ms median latency**
 - Full MLOps CI/CD via GitHub Actions, Docker, AWS EC2/S3, and Hugging Face Spaces
 
@@ -50,7 +50,7 @@ M.S. Computer Science (AI) from Troy University with hands-on experience across 
 ### [Sleep Quality Prediction — Health Analytics ML](https://github.com/vuchau0802/Sleep-Quality-Prediction)
 `Python` `Scikit-learn` `Flask` `Pandas` `NumPy`
 
-- End-to-end ML pipelines on **110K+ health records** — **82.4% accuracy, 0.747 macro F1** (Random Forest)
+- End-to-end ML pipelines on **110K+ health records** with **82.4% accuracy, 0.747 macro F1** (Random Forest)
 - Regression model: **R²=0.671, RMSE=0.737** (Logistic Regression) via 5-fold cross-validated model selection
 - Flask prediction API with real-time analytics dashboard and personalized health recommendations
 
